@@ -17,7 +17,8 @@
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #fed136;
+  /*#fed136*/
+  --yellow: #dc3545; 
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
@@ -1467,6 +1468,11 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
+
+.col-lg-4 {
+  text-align: center;
+}
+
 @media (min-width: 1200px) {
   .col-xl {
     flex-basis: 0;
@@ -10012,7 +10018,7 @@ p {
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .page-section h3.section-subheading {
   font-size: 1rem;
@@ -10119,7 +10125,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #9EBBFF;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10140,7 +10146,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/cover_v2.jpg");
+  background-image: url("../assets/img/mass_based_best_pink.gif");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10445,8 +10451,9 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #E0ADD1;
+  /*background-image: url("../assets/img/contact.jpg");*/
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
