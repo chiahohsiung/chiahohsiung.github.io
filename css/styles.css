@@ -596,6 +596,20 @@ pre code {
     max-width: 1140px;
   }
 }
+
+/*my css*/
+.portfolio_title {
+  padding: 30px;
+}
+
+.skill_icon {
+  padding: 30px;
+}
+
+#SKILLS {
+  background: linear-gradient(89deg, #9EBBFF, #9EBBFF);
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
