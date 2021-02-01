@@ -602,6 +602,11 @@ pre code {
   padding: 30px;
 }
 
+.app_link {
+  color: #75DF75;
+  font-weight: bold;
+}
+
 .skill_icon {
   padding: 30px;
 }
